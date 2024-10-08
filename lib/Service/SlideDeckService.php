@@ -80,6 +80,6 @@ EOF;
 
         $headlines = json_decode($output['output'], associative: true);
 
-        return
+        return $output['output'];
     }
 }

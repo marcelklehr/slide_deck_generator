@@ -50,7 +50,7 @@ class SlideDeckGenerationTaskType implements ITaskType {
 	 * @inheritDoc
 	 */
 	public function getDescription(): string {
-		return $this->l->t('Generate a slide deck from a text');
+		return $this->l->t('Generate a slide deck from a presentation script');
 	}
 
 	/**
@@ -66,7 +66,7 @@ class SlideDeckGenerationTaskType implements ITaskType {
 	public function getInputShape(): array {
 		return [
 			'text' => new ShapeDescriptor(
-				$this->l->t('Presentation text'),
+				$this->l->t('Presentation script'),
 				$this->l->t('Write the text for your presentation here'),
 				EShapeType::Text,
 			),
@@ -81,7 +81,7 @@ class SlideDeckGenerationTaskType implements ITaskType {
 			'slide_deck' => new ShapeDescriptor(
 				$this->l->t('Generated slide deck'),
 				$this->l->t('The slide deck generated'),
-				EShapeType::File,
+				EShapeType::Text,
 			),
         ];
 	}
