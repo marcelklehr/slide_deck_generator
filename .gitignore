@@ -1,0 +1,13 @@
+js/
+.code-workspace
+.DS_Store
+.idea/
+.vscode/
+.vscode-upload.json
+.*.sw*
+.php-cs-fixer.cache
+node_modules
+
+/vendor/
+tests/clover.xml
+tests/.phpunit.result.cache
