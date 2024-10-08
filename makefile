@@ -1,4 +1,4 @@
-app_name=context_chat
+app_name=slide_deck_generator
 app_version=$(version)
 project_dir=.
 build_dir=/tmp/build
