@@ -37,7 +37,7 @@
 	},
 	"dependencies": {
 		"@nextcloud/vue": "^7.12.5",
-		"vue": "^2.7.12"
+		"vue": "^3.0.0"
 	},
 	"devDependencies": {
 		"@nextcloud/babel-config": "^1.0.0",
